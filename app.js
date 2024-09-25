@@ -63,7 +63,7 @@ removeAll.addEventListener("click", function () {
   inputDisplay.value = "";
 });
 remove.addEventListener("click", function () {
-  inputDisplay.value.slice(0, -1);
+  inputDisplay.value = inputDisplay.value.slice(0, -1);
 });
 
 //eval method
